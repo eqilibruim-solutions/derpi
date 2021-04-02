@@ -7,6 +7,11 @@
     src: url(/backend_theme_v14/static/src/font/Roboto-Regular.ttf)
 }
 
+@font-face {
+    font-family: FreeFarsi;
+    src: url(/backend_theme_v14/static/src/font/FreeFarsi.ttf)
+}
+
 
 $gray-base:              #000;
 $gray-darker:            lighten($gray-base, 13.5%);
@@ -20,7 +25,7 @@ $brand-secondary-dark: darken($brand-secondary, 10%);
 
 body {
 
-    font-family: "Roboto";
+    font-family: "FreeFarsi";
 }
 
 .o_loading {
