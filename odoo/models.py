@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Derpi. See LICENSE file for full copyright and licensing details.
 
 
 """
@@ -252,9 +252,9 @@ VALID_AGGREGATE_FUNCTIONS = {
 
 
 class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
-    """Base class for Odoo models.
+    """Base class for Derpi models.
 
-    Odoo models are created by inheriting one of the following:
+    Derpi models are created by inheriting one of the following:
 
     *   :class:`Model` for regular database-persisted models
 

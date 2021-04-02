@@ -1,5 +1,5 @@
 #odoo.loggers.handlers. -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Derpi. See LICENSE file for full copyright and licensing details.
 
 import configparser as ConfigParser
 import errno
@@ -123,7 +123,7 @@ class configmanager(object):
         group.add_option("--load", dest="server_wide_modules", help="Comma-separated list of server-wide modules.", my_default='base,web')
 
         group.add_option("-D", "--data-dir", dest="data_dir", my_default=_get_default_datadir(),
-                         help="Directory where to store Odoo data")
+                         help="Directory where to store Derpi data")
         parser.add_option_group(group)
 
         # HTTP
@@ -131,9 +131,9 @@ class configmanager(object):
         group.add_option("--http-interface", dest="http_interface", my_default='',
                          help="Listen interface address for HTTP services. "
                               "Keep empty to listen on all interfaces (0.0.0.0)")
-        group.add_option("-p", "--http-port", dest="http_port", my_default=8069,
+        group.add_option("-p", "--http-port", dest="http_port", my_default=8079,
                          help="Listen port for the main HTTP service", type="int", metavar="PORT")
-        group.add_option("--longpolling-port", dest="longpolling_port", my_default=8072,
+        group.add_option("--longpolling-port", dest="longpolling_port", my_default=8082,
                          help="Listen port for the longpolling HTTP service", type="int", metavar="PORT")
         group.add_option("--no-http", dest="http_enable", action="store_false", my_default=True,
                          help="Disable the HTTP and Longpolling services entirely")
