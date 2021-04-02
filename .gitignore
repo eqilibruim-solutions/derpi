@@ -30,6 +30,9 @@ setup/win32/static/less/
 setup/win32/static/wkhtmltopdf/
 setup/win32/static/postgresql*.exe
 
+# mo files
+*.mo
+
 # various virtualenv
 /bin/
 /build/
