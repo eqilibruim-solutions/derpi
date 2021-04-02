@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
-"PO-Revision-Date: 2021-04-02 10:27+0430\n"
+"PO-Revision-Date: 2021-04-02 10:46+0430\n"
 "Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
@@ -15070,7 +15070,7 @@ msgstr "فاکتورها از سندها"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account
 msgid "Invoicing"
-msgstr "حسابداری"
+msgstr "صدور فاکتور"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hw_posbox_homepage
